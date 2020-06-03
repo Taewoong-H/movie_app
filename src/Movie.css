@@ -1,0 +1,49 @@
+.movie {
+  width: 45%;
+  background-color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-weight: 300;
+  padding: 30px;
+  margin-bottom: 70px;
+  box-shadow: 15px 0 35px rgba(0, 0, 0, 0.1), 0 -15px 35px rgba(0, 0, 0, 0.1),
+    0 -15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.movie__data {
+  width: 100%;
+}
+
+.movie img {
+  position: relative;
+  top: -50px;
+  max-width: 150px;
+  margin-right: 30px;
+}
+
+.movie h3,
+.movie h5 {
+  font-weight: 400;
+  padding: 10px;
+}
+
+.movie__year,
+.movie__genres {
+  opacity: 0.6;
+}
+
+.movie__genres {
+  display: flex;
+  margin-left: 20px;
+  list-style: none;
+}
+
+.movie__genres li {
+  margin: 8px;
+}
+
+.movie p {
+  opacity: 0.8;
+  padding: 10px;
+}
