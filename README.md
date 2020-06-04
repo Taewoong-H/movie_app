@@ -10,6 +10,12 @@ Make a movie app with react.js and node.js
 4.  fetching API. Use `axios` instead of `fetch`. axios take a time for fetching API, so use async await(ES6).
 5.  Set Movie component and get props from API
 6.  learn how to add CSS style at `create-react-app`
+7.  `deploy` my movie app to github page!
+    - install `npm i gh-pages`
+    - revise package.json. `"homepage" : "https://(GitHub ID).github.io/(Repository name)/"`
+    - add script. `script : {"predeploy": "npm run build", "deploy": "gh-pages -d build"}`
+    - write to console `npm run deploy`. Then "predeploy" start npm run build, next "deploy" start gh-pages -d build.
+8.  create my page! https://taewoong-h.github.io/movie_app/
 
 ### Reference API
 
