@@ -16,6 +16,7 @@ Make a movie app with react.js and node.js
     - add script. `script : {"predeploy": "npm run build", "deploy": "gh-pages -d build"}`
     - write to console `npm run deploy`. Then "predeploy" start npm run build, next "deploy" start gh-pages -d build.
 8.  create my page! https://taewoong-h.github.io/movie_app/
+9.  learn react-router-dom! Separate folder "component" and "routes". Import router at App.js. When URL's are common at "/", then use `exact={true}`.
 
 ### Reference API
 
