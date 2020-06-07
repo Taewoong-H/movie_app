@@ -17,7 +17,9 @@ Make a movie app with react.js and node.js
     - write to console `npm run deploy`. Then "predeploy" start npm run build, next "deploy" start gh-pages -d build.
 8.  create my page! https://taewoong-h.github.io/movie_app/
 9.  learn react-router-dom! Separate folder "component" and "routes". Import router at App.js. When URL's are common at "/", then use `exact={true}`.
+10. Made navigation with `Link` which is instead of `a` tag. Distribute Home and About page. Home page is movie_page and About page is composed with Tronald Dump which is Trump's dumbest thinking...
 
 ### Reference API
 
-- https://yts.mx/api/v2/list_movies.json?sort_by=rating
+- movie data : https://yts.mx/api/v2/list_movies.json?sort_by=rating
+- made About page with tronald Dump API : https://www.tronalddump.io/
