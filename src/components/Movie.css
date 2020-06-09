@@ -15,6 +15,12 @@
   width: 100%;
 }
 
+.movie a {
+  display: flex;
+  text-decoration: none;
+  color: #111;
+}
+
 .movie img {
   position: relative;
   top: -50px;
@@ -35,7 +41,7 @@
 
 .movie__genres {
   display: flex;
-  margin-left: 20px;
+  margin-left: -10px;
   list-style: none;
 }
 
